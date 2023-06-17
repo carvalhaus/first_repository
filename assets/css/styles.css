@@ -198,6 +198,10 @@ svg.feather.feather-arrow-up-right {
     justify-content: flex-start;
 }
 
+.experience-container .big {
+    margin: 1rem 0
+}
+
 .experience-container img {
     height: 9rem;
 }
@@ -404,10 +408,6 @@ footer p {
     .experience-container img {
         height: 20rem;
     }
-
-    .experiences div:first-child {
-        margin-top: 1rem;
-    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -458,7 +458,7 @@ footer p {
     }
 
     .experience-container {
-        height: 77.5rem;
+        height: 76rem;
     }
 
     .experiences {
@@ -469,10 +469,7 @@ footer p {
 
     .experience {
         padding: 2rem 0;
-    }
-
-    .experiences div:first-child {
-        margin-top: 0;
+        height: 60%;
     }
 
     .experience img {
@@ -498,5 +495,15 @@ footer p {
 
     .left {
         flex-direction: row-reverse;
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+    }
+    
+    .repository-btn {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    
     }
 }
