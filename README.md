@@ -1,6 +1,6 @@
 # first_repository
 
-Neste repositório, você encontrará todo o código-fonte da página web do meu [portfólio](https://github.com). Aqui, gostaria de compartilhar com você não apenas o resultado final, mas também o processo de desenvolvimento por trás da criação desta página.
+Neste repositório, você encontrará todo o código-fonte da página web do meu [**portfólio**](https://carvalhaus.github.io/first_repository/). Aqui, gostaria de compartilhar com você não apenas o resultado final, mas também o processo de desenvolvimento por trás da criação desta página.
 
 Utilizei uma abordagem baseada em tecnologias front-end modernas para construir este portfólio. O código foi escrito em **HTML**, **CSS** e **JavaScript**, garantindo uma estrutura sólida e semântica. Além disso, adotei as práticas mais atualizadas e otimizações de desempenho para garantir uma experiência de usuário suave e responsiva.
 
