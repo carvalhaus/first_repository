@@ -470,23 +470,25 @@ footer p {
     }
 
     .experience-container {
-        height: 85rem;
+        height: 70rem;
     }
 
     .experiences {
-        width: 73%;
+        width: 100%;
         align-self: center;
         justify-content: center;
     }
 
     .experience {
         padding: 2rem 0;
-        height: 60%;
+        height: 50%;
+        justify-content: center;
     }
 
     .experience img {
         align-self: center;
         height: 100%;
+        width: auto;
         margin: 0;
     }
 
@@ -507,16 +509,6 @@ footer p {
 
     .left {
         flex-direction: row-reverse;
-    }
-
-    .buttons {
-        flex-wrap: wrap;
-    }
-    
-    .repository-btn {
-        margin-right: 0;
-        margin-bottom: 1rem;
-    
     }
 
     .contact img {
