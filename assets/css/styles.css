@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -51,6 +55,30 @@ header a {
 
 header a:hover{
     text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    padding-right: 2rem;
+}
+
+.menu a {
+    font-weight: 400;
 }
 
 main{
@@ -90,10 +118,6 @@ main{
 .presentation-content ul {
     display: flex;
     justify-content: space-between;
-}
-
-.presentation-content ul li {    
-    list-style: none;
 }
 
 .presentation-content ul li a {
@@ -190,12 +214,16 @@ svg.feather.feather-arrow-up-right {
     justify-content: space-between;
 }
 
+.experience-detail,
 .experience {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    margin: 2rem 0;
+}
+
+.experience-detail {
+    margin-bottom: 2rem;
 }
 
 .buttons {
@@ -309,9 +337,9 @@ footer p {
         padding: 1rem 2rem;
     }
 
-    header p {
-        font-size: 1rem;
-    }
+    header a {
+        font-weight: 700;
+    }    
 
     .presentation {
         flex-direction: row-reverse;
@@ -322,6 +350,10 @@ footer p {
     .presentation img {
         width: 9.125rem;
         height: 9.125rem;
+    }
+
+    .presentation p {
+        font-size: 1rem;
     }
 
     .presentation-content {
@@ -375,5 +407,96 @@ footer p {
 
     .experiences div:first-child {
         margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-right: 16rem;
+    }
+    
+    .menu {
+        display: block;
+    }
+
+    .presentation {
+        height: 27.125rem;
+        justify-content: center;
+    }
+
+    .presentation img {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .presentation-content {
+        justify-content: center;
+        width: 37.938rem;
+        padding: 0 1rem 0 0;
+    }
+
+    .about-me {
+        justify-content: space-between;
+        padding: 4rem;
+    }
+
+    .about-me h2,
+    .about-me p {
+        width: 70%;
+        align-self: center;
+    }
+
+    .skills,
+    .hobbies,
+    .educations {
+        width: 70%;
+        align-self: center;
+    }
+
+    .experience-container {
+        height: 77.5rem;
+    }
+
+    .experiences {
+        width: 73%;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .experience {
+        padding: 2rem 0;
+    }
+
+    .experiences div:first-child {
+        margin-top: 0;
+    }
+
+    .experience img {
+        align-self: center;
+        height: 100%;
+        margin: 0;
+    }
+
+    .experience-detail {
+        padding: 1rem;
+        justify-content: center;
+        margin: 0;
+        height: 100%;
+    }
+
+    .experience-detail p {
+        padding: 0.5rem 0;
+    }
+
+    .right {
+        flex-direction: row;
+    }
+
+    .left {
+        flex-direction: row-reverse;
     }
 }
