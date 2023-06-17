@@ -179,8 +179,7 @@ svg.feather.feather-arrow-up-right {
 }
 
 .education-container,
-.experience-container,
-.contact {
+.experience-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -269,16 +268,25 @@ svg.feather.feather-arrow-up-right {
 .contact {
     background-color: var(--blue-light-bg);
     height: 46rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }
 
-.contact form,
-.contact label {
+.contact img {
+    display: none;
+    height: 98.5%;
+    padding-right: 1rem;
+}
+
+.contact-form form,
+.contact-form label {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.contact label {
+.contact-form label {
     background-color: #fff;
     border-radius: 0.25rem;
     border-bottom: 2px solid var(--black-30);
@@ -288,8 +296,8 @@ svg.feather.feather-arrow-up-right {
     color: var(--black-50);
 }
 
-.contact input,
-.contact textarea {
+.contact-form input,
+.contact-form textarea {
     border: none;
     outline: none;
     font-size: 1rem;
@@ -298,7 +306,7 @@ svg.feather.feather-arrow-up-right {
     resize: none;
 }
 
-.contact button {
+.contact-form button {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -457,8 +465,12 @@ footer p {
         align-self: center;
     }
 
+    .education-container {
+        height: 18.55rem;
+    }
+
     .experience-container {
-        height: 76rem;
+        height: 85rem;
     }
 
     .experiences {
@@ -505,5 +517,13 @@ footer p {
         margin-right: 0;
         margin-bottom: 1rem;
     
+    }
+
+    .contact img {
+        display: block;
+    }
+
+    .contact-form p {
+        margin: 1rem 0;
     }
 }
